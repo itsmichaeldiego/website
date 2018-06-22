@@ -2,7 +2,7 @@
   <section class="container">
     <app-logo/>
     <h1 class="title">
-      www
+      itsmichaeldiego
     </h1>
     <h2 class="subtitle">
       Michael Diego's website
