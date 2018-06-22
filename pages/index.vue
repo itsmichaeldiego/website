@@ -1,23 +1,21 @@
 <template>
   <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        www
-      </h1>
-      <h2 class="subtitle">
-        Michael Diego's website
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+    <app-logo/>
+    <h1 class="title">
+      itsmichaeldiego
+    </h1>
+    <h2 class="subtitle">
+      Michael Diego's website
+    </h2>
+    <div class="links">
+      <a
+        href="https://itsmichaeldiego.github.io/csscv/"
+        target="_blank"
+        class="button--green">Curriculum Vitae</a>
+      <a
+        href="https://github.com/itsmichaeldiego/"
+        target="_blank"
+        class="button--grey">GitHub</a>
     </div>
   </section>
 </template>
@@ -36,6 +34,7 @@ export default {
 .container {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
