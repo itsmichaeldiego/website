@@ -1,3 +1,11 @@
+/* nuxt.config.js */
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/website/',
+  }
+} : {};
+
 module.exports = {
   /*
   ** Headers of the page
@@ -10,9 +18,13 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Michael Diego&apos;s website' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ]
   },
+  /*
+  ** Router config
+  */
+  ...routerBase,
   /*
   ** Customize the progress bar color
   */
