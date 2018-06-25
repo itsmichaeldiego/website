@@ -1,4 +1,4 @@
-# Michael Diego's website
+# Michael Diego's website &middot; [![Build Status](https://travis-ci.org/itsmichaeldiego/website.svg?branch=master)](https://travis-ci.org/itsmichaeldiego/website)
 
 This website was built using [Nuxt.js](https://github.com/nuxt/nuxt.js), which uses [Vue.js](https://github.com/vuejs/vue).
 
