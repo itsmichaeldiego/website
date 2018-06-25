@@ -18,7 +18,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Michael Diego&apos;s website' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: 'favicon.ico' },
     ]
   },
   /*
