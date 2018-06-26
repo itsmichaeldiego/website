@@ -2,9 +2,9 @@
   <img class="c-logo" src="mike_alfa.png" />
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .c-logo {
-    margin: 15px;
+    margin: $half-spacing-unit;
     width: $logo-size;
     height: $logo-size;
   }
