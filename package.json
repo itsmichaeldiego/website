@@ -17,7 +17,7 @@
     "deploy": "gh-pages -d dist --dotfiles=true"
   },
   "dependencies": {
-    "nuxt": "^1.0.0",
+    "nuxt": "^1.4.1",
     "vue-styled-components": "^1.2.3"
   },
   "devDependencies": {
