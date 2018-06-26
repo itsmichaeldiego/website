@@ -17,8 +17,7 @@
     "deploy": "gh-pages -d dist --dotfiles=true"
   },
   "dependencies": {
-    "nuxt": "^1.4.1",
-    "vue-styled-components": "^1.2.3"
+    "nuxt": "^1.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
@@ -26,6 +25,9 @@
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "nuxt-sass-resources-loader": "^2.0.2",
+    "sass-loader": "^7.0.3"
   }
 }

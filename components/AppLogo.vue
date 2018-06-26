@@ -1,19 +1,11 @@
 <template>
-  <Wrapper src="mike_alfa.png" />
+  <img class="c-logo" src="mike_alfa.png" />
 </template>
 
-<script>
-  import styled from 'vue-styled-components';
-
-  const Wrapper = styled.img`
+<style lang="scss" scoped>
+  .c-logo {
     margin: 15px;
-    width: 245px;
-    height: 245px;
-  `;
-
-  export default {
-    components: {
-      Wrapper
-    }
-  };
-</script>
+    width: $logo-size;
+    height: $logo-size;
+  }
+</style>
