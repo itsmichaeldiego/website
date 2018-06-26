@@ -1,31 +1,36 @@
 <template>
-  <section class="container">
-    <app-logo/>
-    <h1 class="title">
-      itsmichaeldiego
-    </h1>
-    <h2 class="subtitle">
-      Michael Diego's website
-    </h2>
-    <div class="links">
-      <a
-        href="https://itsmichaeldiego.github.io/csscv/"
-        target="_blank"
-        class="button--green">Curriculum Vitae</a>
-      <a
-        href="https://github.com/itsmichaeldiego/"
-        target="_blank"
-        class="button--grey">GitHub</a>
+  <section>
+    <fixed-header />
+    <div class="container">
+      <app-logo />
+      <h1 class="title">
+        itsmichaeldiego
+      </h1>
+      <h2 class="subtitle">
+        Michael Diego's website
+      </h2>
+      <div class="links">
+        <a
+          href="https://itsmichaeldiego.github.io/csscv/"
+          target="_blank"
+          class="button--green">Curriculum Vitae</a>
+        <a
+          href="https://github.com/itsmichaeldiego/"
+          target="_blank"
+          class="button--grey">GitHub</a>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import FixedHeader from '~/components/FixedHeader.vue'
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    FixedHeader,
   }
 }
 </script>
