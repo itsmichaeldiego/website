@@ -1,5 +1,5 @@
 <template>
-  <Wrapper src="/mike_alfa.png" />
+  <Wrapper src="mike_alfa.png" />
 </template>
 
 <script>
