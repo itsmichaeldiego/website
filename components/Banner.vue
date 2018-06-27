@@ -1,7 +1,7 @@
 <template>
   <div class="c-banner">
     <h1 class="c-banner__title">
-      Michael Diego is an enthutiastic Frontend Developer,
+      Michael Diego is an enthutiastic Frontend Engineer,
       <br/>
       working in digital projects for all over the world.
     </h1>
