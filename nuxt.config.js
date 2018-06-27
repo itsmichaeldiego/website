@@ -15,7 +15,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Michael Diego&apos;s website' }
+      { hid: 'description', name: 'description', content: 'Michael Diego is an enthusiastic Frontend Engineer, working on digital projects all over the world.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
