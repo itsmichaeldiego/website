@@ -8,24 +8,28 @@
     </h2>
     <app-logo />
     <div class="c-banner__links">
-      <a
-        href="https://itsmichaeldiego.github.io/csscv/"
-        target="_blank"
-        class="c-button c-button--green">Curriculum Vitae</a>
-      <a
-        href="https://github.com/itsmichaeldiego/"
-        target="_blank"
-        class="c-button c-button--grey">GitHub</a>
+      <custom-button
+        link="https://itsmichaeldiego.github.io/csscv/"
+        text="Curriculum Vitae"
+        type="green"
+      />
+      <custom-button
+        link="https://github.com/itsmichaeldiego/"
+        text="Github"
+        type="grey"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import CustomButton from '~/components/CustomButton.vue'
 
 export default {
   components: {
     AppLogo,
+    CustomButton,
   }
 }
 </script>
