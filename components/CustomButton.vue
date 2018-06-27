@@ -3,7 +3,7 @@
     class="c-button"
     v-bind:class="type ? `c-button--${type}` : ''"
     v-bind:href="link"
-    v-bind:alt="text"
+    v-bind:title="text"
     target="_blank"
   >
     {{text}}
@@ -23,10 +23,7 @@
     border: 1px solid transparent;
     text-decoration: none;
     padding: 10px $base-spacing-unit;
-    margin-left: $half-spacing-unit;
-    &:first-child {
-      margin-left: 0;
-    }
+    margin: $half-spacing-unit;
     // .c-button--main {
     &--main {
       color: $color-font-secondary;

@@ -20,6 +20,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: $half-spacing-unit;
     height: $header-height;
     background-color: $color-bg-main;

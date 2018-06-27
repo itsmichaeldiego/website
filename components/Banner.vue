@@ -3,7 +3,7 @@
     <h1 class="c-banner__title">
       Michael Diego is an enthusiastic Frontend Engineer,
       <br/>
-      working in digital projects for all over the world.
+      working on digital projects all over the world.
     </h1>
     <div class="c-banner__links">
       <custom-button
