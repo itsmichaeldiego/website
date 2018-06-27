@@ -1,6 +1,10 @@
 <template>
   <span class="c-logo">
-    <img class="c-logo__img" src="mike_alfa.png" />
+    <img
+      class="c-logo__img"
+      alt="Michael Diego's logo"
+      src="mike_alfa.png"
+    />
   </span>
 </template>
 
