@@ -23,15 +23,28 @@
     border: 1px solid transparent;
     text-decoration: none;
     padding: 10px $base-spacing-unit;
-    // c-button--main {
+    margin-left: $half-spacing-unit;
+    &:first-child {
+      margin-left: 0;
+    }
+    // .c-button--main {
     &--main {
       color: $color-font-secondary;
       border-color: $color-bg-secondary;
-      margin-left: $half-spacing-unit;
 
       &:hover {
         color: $color-font-main;
         background-color: $color-bg-secondary;
+      }
+    }
+    // .c-button--secondary {
+    &--secondary {
+      color: $color-cta-main;
+      border-color: $color-cta-main;
+
+      &:hover {
+        color: $color-font-main;
+        background-color: $color-cta-main;
       }
     }
   }

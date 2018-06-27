@@ -9,7 +9,7 @@
       <custom-button
         link="https://itsmichaeldiego.github.io/csscv/"
         text="Curriculum Vitae"
-        type="main"
+        type="secondary"
       />
       <custom-button
         link="https://github.com/itsmichaeldiego/"
