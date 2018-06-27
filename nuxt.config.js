@@ -20,13 +20,14 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
       { rel: 'shortcut icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:400,600' }
     ]
   },
   /*
   ** Modules
   */
   modules: [
-    ['nuxt-sass-resources-loader', './assets/scss/main.scss', '@nuxtjs/sitemap']
+    ['nuxt-sass-resources-loader', './assets/scss/settings.scss', '@nuxtjs/sitemap']
   ],
   /*
   ** Router config
