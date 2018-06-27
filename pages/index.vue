@@ -13,11 +13,11 @@
         <a
           href="https://itsmichaeldiego.github.io/csscv/"
           target="_blank"
-          class="button--green">Curriculum Vitae</a>
+          class="c-button c-button--green">Curriculum Vitae</a>
         <a
           href="https://github.com/itsmichaeldiego/"
           target="_blank"
-          class="button--grey">GitHub</a>
+          class="c-button c-button--grey">GitHub</a>
       </div>
     </div>
   </section>

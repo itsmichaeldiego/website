@@ -1,2 +1,4 @@
-@import './vars.scss';
-@import './colors.scss';
+@import './settings/vars';
+@import './settings/colors';
+
+@import './components/button';

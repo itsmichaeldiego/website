@@ -1,0 +1,27 @@
+.c-button {
+  display: inline-block;
+  border-radius: $border-radius;
+  border: 1px solid transparent;
+  text-decoration: none;
+  padding: 10px $base-spacing-unit;
+
+  &--green {
+    color: $color-cta-primary;
+    border-color: $color-cta-primary;
+    &:hover {
+      color: $color-font-secondary;
+      background-color: $color-cta-primary;
+    }
+  }
+
+  &--grey {
+    color: $color-cta-secondary;
+    border-color: $color-cta-secondary;
+    margin-left: $half-spacing-unit;
+
+    &:hover {
+      color: $color-font-secondary;
+      background-color: $color-cta-secondary;
+    }
+  }
+}
