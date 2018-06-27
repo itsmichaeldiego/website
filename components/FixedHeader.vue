@@ -12,7 +12,7 @@
     flex-direction: row;
     padding: $half-spacing-unit;
     height: $header-height;
-    background-color: #363636;
+    background-color: $color-bg-main;
     color: #ffffff;
   }
 </style>
