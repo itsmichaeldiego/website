@@ -13,6 +13,6 @@
     padding: $half-spacing-unit;
     height: $header-height;
     background-color: $color-bg-main;
-    color: #ffffff;
+    color: $color-font-secondary;
   }
 </style>
