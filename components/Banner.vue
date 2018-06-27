@@ -40,7 +40,6 @@ export default {
     align-items: center;
     text-align: center;
     color: $color-font-main;
-
     // c-banner__title {
     &__title {
       font-size: 2rem;

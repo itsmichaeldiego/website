@@ -4,7 +4,7 @@
   border: 1px solid transparent;
   text-decoration: none;
   padding: 10px $base-spacing-unit;
-
+  // c-button--green {
   &--green {
     color: $color-cta-primary;
     border-color: $color-cta-primary;
@@ -13,7 +13,7 @@
       background-color: $color-cta-primary;
     }
   }
-
+  // c-button--grey {
   &--grey {
     color: $color-cta-secondary;
     border-color: $color-cta-secondary;
