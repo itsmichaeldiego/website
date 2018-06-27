@@ -23,24 +23,15 @@
     border: 1px solid transparent;
     text-decoration: none;
     padding: 10px $base-spacing-unit;
-    // c-button--green {
-    &--green {
-      color: $color-cta-primary;
-      border-color: $color-cta-primary;
-      &:hover {
-        color: $color-font-secondary;
-        background-color: $color-cta-primary;
-      }
-    }
-    // c-button--grey {
-    &--grey {
-      color: $color-cta-secondary;
-      border-color: $color-cta-secondary;
+    // c-button--main {
+    &--main {
+      color: $color-font-secondary;
+      border-color: $color-bg-secondary;
       margin-left: $half-spacing-unit;
 
       &:hover {
-        color: $color-font-secondary;
-        background-color: $color-cta-secondary;
+        color: $color-font-main;
+        background-color: $color-bg-secondary;
       }
     }
   }
