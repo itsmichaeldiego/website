@@ -27,7 +27,7 @@ module.exports = {
   ** Modules
   */
   modules: [
-    ['nuxt-sass-resources-loader', './assets/scss/main.scss', '@nuxtjs/sitemap']
+    ['nuxt-sass-resources-loader', './assets/scss/settings.scss', '@nuxtjs/sitemap']
   ],
   /*
   ** Router config
