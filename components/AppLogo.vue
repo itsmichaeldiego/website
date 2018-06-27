@@ -6,10 +6,12 @@
 
 <style lang="scss">
   .c-logo {
+    width: $logo-size;
+    height: $logo-size;
     border-radius: 100%;
     background-color: $color-bg-secondary;
     &__img {
-      width: auto;
+      width: 100%;
       height: 100%;
     }
   }
