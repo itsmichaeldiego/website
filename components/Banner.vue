@@ -23,15 +23,15 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-import CustomButton from '~/components/CustomButton.vue'
+  import AppLogo from '~/components/AppLogo.vue'
+  import CustomButton from '~/components/CustomButton.vue'
 
-export default {
-  components: {
-    AppLogo,
-    CustomButton,
+  export default {
+    components: {
+      AppLogo,
+      CustomButton,
+    }
   }
-}
 </script>
 
 <style lang="scss">
