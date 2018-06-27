@@ -43,13 +43,14 @@ export default {
     // c-banner__title {
     &__title {
       font-size: 2rem;
+      font-weight: 600;
       letter-spacing: 1px;
       padding-bottom: $half-spacing-unit;
     }
     // c-banner__subtitle {
     &__subtitle {
       font-size: 1.25rem;
-      font-weight: 300;
+      font-weight: 400;
       padding-bottom: $half-spacing-unit;
     }
     // c-banner__links {
