@@ -2,18 +2,18 @@
   <section>
     <fixed-header />
     <banner />
-    <icon type="github" />
+    <social />
   </section>
 </template>
 
 <script>
-  import Icon from '~/components/Icon.vue'
+  import Social from '~/components/Social.vue'
   import Banner from '~/components/Banner.vue'
   import FixedHeader from '~/components/FixedHeader.vue'
 
   export default {
     components: {
-      Icon,
+      Social,
       Banner,
       FixedHeader,
     }
