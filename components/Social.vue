@@ -44,7 +44,7 @@
     min-height: 30vh;
     // .c-social__link
     &__link {
-      margin: 0 30px;
+      margin: 0 $base-spacing-unit;
       text-decoration: none;
       color: $color-cta-secondary;
     }
