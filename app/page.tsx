@@ -105,7 +105,7 @@ export default function Home() {
           </Link>
           <Link
             href="mailto:itsmichaeldiego@gmail.com"
-            className="px-4 py-2 rounded-xl hover:bg-content2 transition"
+            className="px-4 py-2 rounded-xl border text-primary-foreground hover:opacity-90 transition"
           >
             Email me
           </Link>
@@ -215,17 +215,17 @@ export default function Home() {
           </p>
           <div className="mt-5 flex flex-wrap items-center justify-center gap-3">
             <Link
-              href="mailto:itsmichaeldiego@gmail.com"
-              className="px-4 py-2 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition"
-            >
-              Email me
-            </Link>
-            <Link
               isExternal
               href="https://www.linkedin.com/in/itsmichaeldiego"
-              className="px-4 py-2 rounded-xl border hover:bg-content2 transition"
+              className="px-4 py-2 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition"
             >
               Connect on LinkedIn
+            </Link>
+            <Link
+              href="mailto:itsmichaeldiego@gmail.com"
+              className="px-4 py-2 rounded-xl border text-primary-foreground hover:opacity-90 transition"
+            >
+              Email me
             </Link>
           </div>
         </div>
