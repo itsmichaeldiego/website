@@ -67,7 +67,7 @@ const projects = [
 
 export default function Home() {
   return (
-    <section className="flex flex-col gap-12 py-10 md:py-14">
+    <section id="home" className="flex flex-col gap-12 py-10 md:py-14">
       {/* Hero */}
       <div className="text-center max-w-3xl mx-auto">
         <p className="text-sm text-default-500">Paris, France — Open to roles in EU</p>
@@ -113,7 +113,7 @@ export default function Home() {
       </div>
 
       {/* Skills */}
-      <div className="max-w-5xl mx-auto w-full">
+      <div id="skills" className="max-w-5xl mx-auto w-full">
         <h2 className="text-xl font-semibold mb-4">Skills</h2>
         <div className="flex flex-wrap gap-2">
           {skills.map((s) => (
@@ -128,9 +128,9 @@ export default function Home() {
       </div>
 
       {/* Projects */}
-      <div className="max-w-5xl mx-auto w-full">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-semibold mb-4">Featured Projects</h2>
+      <div id="projects" className="max-w-5xl mx-auto w-full">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-semibold">Featured Projects</h2>
           <Link href="#experience" className="text-sm underline underline-offset-4">
             Jump to experience
           </Link>
@@ -184,7 +184,7 @@ export default function Home() {
       </div>
 
       {/* About / Education / Availability */}
-      <div className="max-w-5xl mx-auto w-full grid md:grid-cols-3 gap-6">
+      <div id="about" className="max-w-5xl mx-auto w-full grid md:grid-cols-3 gap-6">
         <div className="rounded-2xl border p-5 bg-content1 md:col-span-2">
           <h2 className="text-xl font-semibold mb-3">About</h2>
           <p className="text-default-700">
@@ -206,7 +206,7 @@ export default function Home() {
       </div>
 
       {/* Contact CTA */}
-      <div className="max-w-5xl mx-auto w-full">
+      <div id="contact" className="max-w-5xl mx-auto w-full">
         <div className="rounded-2xl border p-6 md:p-8 bg-content1 text-center">
           <h2 className="text-2xl font-bold">Let’s build something great</h2>
           <p className="mt-3 text-default-600">
