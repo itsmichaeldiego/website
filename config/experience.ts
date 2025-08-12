@@ -1,3 +1,4 @@
+
 // --- Data ------------------------------------------------------------
 export const skills = [
   "React", "Next.js", "TypeScript", "JavaScript", "Node.js", "GraphQL",
@@ -27,7 +28,6 @@ export const experience = [
       "Built a full CMS for marketing website and blog using Sanity; enabled editors to create and manage posts and pages.",
       "Established a shared types + component library to keep design parity between the app and marketing site.",
       "Reworked photo processing and asset library to support faster, more reliable media workflows.",
-      "Delivered full-stack features with GraphQL, Apollo, Prisma, and Node.js; mentored developers and set quality practices.",
     ],
   },
   {
@@ -35,8 +35,10 @@ export const experience = [
     company: "Mahisoft / Ten-X",
     period: "Mar 2020 – May 2021 · Remote",
     bullets: [
-      "Frontend lead for Ten-X using React and React Query; built micro-frontend patterns and shared UI primitives.",
-      "Improved perceived performance and data-fetching strategies across critical workflows.",
+      "Frontend lead for Ten-X using React and React Query; built and maintained micro-frontend patterns and shared UI primitives.",
+      "Created multiple micro-services for the auction system, enabling modular, scalable architecture.",
+      "Developed shared components across apps, such as the bidding calculator, to ensure consistent UX and reduce duplication.",
+      "Improved perceived performance and optimized data-fetching strategies across critical workflows.",
     ],
   },
   {
@@ -115,9 +117,14 @@ export const projects = [
     period: "2020–2021",
     tags: ["React", "React Query", "Microfrontends"],
     summary:
-      "Frontend lead for critical workflows; built micro-frontend patterns and interactive components to streamline transactions.",
+      "Frontend lead for critical workflows; built micro-frontend patterns, multiple micro-services for the auction system, and shared components like the bidding calculator to unify UX across apps.",
     link: "https://www.ten-x.com",
   },
+];
+
+export const toolstack = [
+  "Git", "GitHub", "GitHub Copilot", "Figma", "Sentry",
+  "TypeScript", "ESLint/Prettier", "Turborepo", "Postman", "Storybook",
 ];
 
 export const languages = [
@@ -126,4 +133,3 @@ export const languages = [
   "Italian (advanced)",
   "French (basic)",
 ];
-
