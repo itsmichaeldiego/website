@@ -1,3 +1,5 @@
+'use client';
+import { useState } from "react";
 import {
   Navbar as HeroUINavbar,
   NavbarContent,
@@ -16,8 +18,14 @@ import { siteConfig } from "@/config/site";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 
 export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClose = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <HeroUINavbar maxWidth="xl" position="sticky">
+    <HeroUINavbar maxWidth="xl" position="sticky" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent className="basis-1/5 md:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -74,7 +82,7 @@ export const Navbar = () => {
         <div className="mx-4 mt-2 flex flex-col gap-2">
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link href={item.href} size="lg" color="foreground">
+              <Link href={item.href} size="lg" color="foreground" onClick={handleMenuClose}>
                 {item.label}
               </Link>
             </NavbarMenuItem>
