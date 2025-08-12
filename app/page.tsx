@@ -19,8 +19,8 @@ export default function Home() {
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
           <Link
-            isExternal
-            href="/resume.pdf"
+            download
+            href="/resumee.pdf"
             className="px-4 py-2 rounded-xl bg-primary text-primary-foreground hover:opacity-90 transition"
           >
             Download CV
