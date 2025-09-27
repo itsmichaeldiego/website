@@ -9,7 +9,7 @@ export default function Home() {
     <section className="flex flex-col gap-6 pb-12 md:pb-16">
       {/* Hero */}
       <div className="py-4 text-center max-w-3xl mx-auto">
-        <p className="text-sm text-default-500">Paris, France — Open to EU roles (remote/hybrid)</p>
+        <p className="text-sm text-default-500">Uruguay / Costa Rica — Open to roles in the Americas (remote)</p>
         <h1 className="mt-2 text-3xl md:text-5xl font-bold tracking-tight">
           Michael Diego — Senior Frontend / Full Stack Engineer
         </h1>
@@ -41,7 +41,7 @@ export default function Home() {
           </Link>
           <Link
             href="mailto:itsmichaeldiego@gmail.com"
-            className="px-4 py-2 rounded-xl border hover:bg-content2 transition"
+            className="px-4 py-2 rounded-xl text-primary-foreground border hover:bg-content2 transition"
           >
             Email me
           </Link>
@@ -123,7 +123,7 @@ export default function Home() {
         <div className="rounded-2xl border p-5 bg-content1">
           <h2 className="text-xl font-semibold mb-3">Details</h2>
           <ul className="text-sm text-default-700 space-y-2">
-            <li>Location: Paris (EU work-eligible)</li>
+            <li>Uruguay / Costa Rica — Open to roles in the Americas (remote)</li>
             <li>Languages: Spanish (native), English (professional), Italian (advanced), French (basic)</li>
             <li>Open to: Senior Frontend / Full Stack</li>
             <li>Education: Universidad ORT Uruguay (2011–2016)</li>
