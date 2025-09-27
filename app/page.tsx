@@ -124,7 +124,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-3">Details</h2>
           <ul className="text-sm text-default-700 space-y-2">
             <li>Location: Uruguay / Costa Rica — Open to roles in the Americas (remote)</li>
-            <li>Languages: Spanish (native), English (professional), Italian (advanced), French (basic)</li>
+            <li>Languages: Spanish (native), English (professional), Italian (advanced)</li>
             <li>Open to: Senior Frontend / Full Stack</li>
             <li>Education: Universidad ORT Uruguay (2011–2016)</li>
           </ul>
